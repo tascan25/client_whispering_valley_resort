@@ -51,8 +51,8 @@ function ContactComp() {
               content: (
                 <>
                   +91-9816017904<br />
-                  +91-9816417904
-                  Available 24/7
+                  +91-9816417904<br/>
+                  <span className='font-semibold text-sm'>Available 24/7</span>
                 </>
               ),
               delay: 0.2
@@ -62,14 +62,15 @@ function ContactComp() {
               content: (
                 <>
                   whisperinggroup@gmail.com<br />
-                  booking@wishperingvalleyresort.in
+                  {/* booking@wishperingvalleyresort.in */}
                 </>
               ),
               delay: 0.3
             }].map(({ Icon, title, content, delay }) => (
-              <motion.div
+              <motion.a href={title === 'Phone'? `tel:+919816017904` : title === 'Email' ? `mailto:whisperinggroup@gmail.com` : title === 'Location' ? 'https://maps.app.goo.gl/7ZcsxYrvnpkDPcav8?g_st=ipc' : '#'} target='_blank'>
+                      <motion.div
                 key={title}
-                className="bg-slate-900/60 p-6 rounded-xl backdrop-blur-sm border border-slate-600/30 text-center"
+                className="bg-slate-900/60 p-6 rounded-xl backdrop-blur-sm border border-slate-600/30 text-center cursor-pointer"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay }}
@@ -80,6 +81,8 @@ function ContactComp() {
                 <h3 className="text-xl font-semibold text-white mb-1">{title}</h3>
                 <p className="text-gray-300 text-sm">{content}</p>
               </motion.div>
+              </motion.a>
+            
             ))}
           </div>
         </div>

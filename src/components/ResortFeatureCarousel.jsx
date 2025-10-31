@@ -52,104 +52,104 @@ const ResortCarousel = () => {
       description: "Stunning infinity pool overlooking the ocean with panoramic views",
       image: sevice1,
       icon: Waves,
-      features: ["Ocean View", "Heated", "Pool Bar"]
+      features: [""]
     },
-    {
-      id: 2,
-      title: "Scenic View",
-      description: "Full-service spa with rejuvenating treatments and wellness programs",
-      image: sevice2,
-      icon: Heart,
-      features: ["Massage Therapy", "Wellness Center", "Aromatherapy"]
-    },
-    {
-      id: 3,
-      title: "Fine Dining",
-      description: "World-class restaurants featuring international and local cuisine",
-      image: sevice3,
-      icon: Utensils,
-      features: ["Michelin Rated", "Ocean View", "Wine Cellar"]
-    },
-    {
-      id: 4,
-      title: "Fine Dining",
-      description: "State-of-the-art fitness facility with personal training services",
-      image: sevice4,
-      icon: Dumbbell,
-      features: ["24/7 Access", "Personal Trainers", "Yoga Classes"]
-    },
-    {
-      id: 5,
-      title: "Premium Suites",
-      description: "Elegantly appointed suites with private balconies and ocean views",
-      image: sevice5,
-      icon: MapPin,
-      features: ["Ocean View", "Private Balcony", "Butler Service"]
-    },
-    {
-      id: 6,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice6,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 7,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice7,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 8,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice8,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 9,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice9,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 10,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice10,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 11,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice11,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 12,
-      title: "Premium Suites",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice12,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
-    {
-      id: 13,
-      title: "Scenic View",
-      description: "Exclusive beachfront access with water sports and lounging areas",
-      image: sevice13,
-      icon: Coffee,
-      features: ["Private Beach", "Water Sports", "Beach Bar"]
-    },
+    // {
+    //   id: 2,
+    //   title: "Scenic View",
+    //   description: "Full-service spa with rejuvenating treatments and wellness programs",
+    //   image: sevice2,
+    //   icon: Heart,
+    //   features: ["Massage Therapy", "Wellness Center", "Aromatherapy"]
+    // },
+    // {
+    //   id: 3,
+    //   title: "Fine Dining",
+    //   description: "World-class restaurants featuring international and local cuisine",
+    //   image: sevice3,
+    //   icon: Utensils,
+    //   features: ["Michelin Rated", "Ocean View", "Wine Cellar"]
+    // },
+    // {
+    //   id: 4,
+    //   title: "Fine Dining",
+    //   description: "State-of-the-art fitness facility with personal training services",
+    //   image: sevice4,
+    //   icon: Dumbbell,
+    //   features: ["24/7 Access", "Personal Trainers", "Yoga Classes"]
+    // },
+    // {
+    //   id: 5,
+    //   title: "Premium Suites",
+    //   description: "Elegantly appointed suites with private balconies and ocean views",
+    //   image: sevice5,
+    //   icon: MapPin,
+    //   features: ["Ocean View", "Private Balcony", "Butler Service"]
+    // },
+    // {
+    //   id: 6,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice6,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 7,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice7,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 8,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice8,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 9,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice9,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 10,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice10,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 11,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice11,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 12,
+    //   title: "Premium Suites",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice12,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
+    // {
+    //   id: 13,
+    //   title: "Scenic View",
+    //   description: "Exclusive beachfront access with water sports and lounging areas",
+    //   image: sevice13,
+    //   icon: Coffee,
+    //   features: ["Private Beach", "Water Sports", "Beach Bar"]
+    // },
   ];
 
 

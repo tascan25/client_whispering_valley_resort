@@ -15,72 +15,72 @@ const AboutUsComp = () => {
         setIsOpen(true)
     }
 
-    const facilities = [
-        {
-            "title": "Well-Appointed Rooms",
-            "desc": "Comfortable accommodations with all essential amenities for a relaxing stay."
-        },
-        {
-            "title": "Complimentary Wi-Fi",
-            "desc": "Stay connected with free high-speed internet throughout the property."
-        },
-        {
-            "title": "Rooftop Restaurant",
-            "desc": "Enjoy a variety of delicious cuisines with scenic rooftop views."
-        },
-        {
-            "title": "Bonfire",
-            "desc": "Cozy up with a bonfire experience, available upon request."
-        },
-        {
-            "title": "Convenient Parking",
-            "desc": "Ample parking space for hassle-free guest convenience."
-        },
-        {
-            "title": "Wellness Zone",
-            "desc": "Sauna, steam bath, and massage center services available for your rejuvenation."
-        },
-        {
-            "title": "Conference Hall",
-            "desc": "Ideal for meetings, small events, and business gatherings."
-        },
-        {
-            "title": "Games Room",
-            "desc": "Indoor fun with pool and table tennis for entertainment."
-        },
-        {
-            "title": "Live Music",
-            "desc": "Delight in live musical performances for a vibrant evening."
-        },
-        {
-            "title": "Exclusive Discotheque",
-            "desc": "Private discotheque access for our in-house guests."
-        },
-        {
-            "title": "Guest Services",
-            "desc": "Front desk, room service, laundry, doctor-on-call, and 24/7 hot water for a seamless stay."
-        },
-        {
-            "title": "24/7 Security Surveillance",
-            "desc": "CCTV coverage in main areas to ensure guest safety."
-        },
-        {
-            "title": "Elevator Access",
-            "desc": "Lift service available for added ease and comfort."
-        },
-        {
-            "title": "Scenic River View",
-            "desc": "Marvel at the breathtaking views of the River Beas."
-        },
-        {
-            "title": "Prime Location",
-            "desc": "Just 200 meters from the bustling Mall Road—easily walkable."
-        },
-        {
-            "title": "Power Backup",
-            "desc": "Generator backup ensures uninterrupted electricity supply."
-        }
-    ]
+    // const facilities = [
+    //     {
+    //         "title": "Well-Appointed Rooms",
+    //         "desc": "Comfortable accommodations with all essential amenities for a relaxing stay."
+    //     },
+    //     {
+    //         "title": "Complimentary Wi-Fi",
+    //         "desc": "Stay connected with free high-speed internet throughout the property."
+    //     },
+    //     {
+    //         "title": "Rooftop Restaurant",
+    //         "desc": "Enjoy a variety of delicious cuisines with scenic rooftop views."
+    //     },
+    //     {
+    //         "title": "Bonfire",
+    //         "desc": "Cozy up with a bonfire experience, available upon request."
+    //     },
+    //     {
+    //         "title": "Convenient Parking",
+    //         "desc": "Ample parking space for hassle-free guest convenience."
+    //     },
+    //     {
+    //         "title": "Wellness Zone",
+    //         "desc": "Sauna, steam bath, and massage center services available for your rejuvenation."
+    //     },
+    //     {
+    //         "title": "Conference Hall",
+    //         "desc": "Ideal for meetings, small events, and business gatherings."
+    //     },
+    //     {
+    //         "title": "Games Room",
+    //         "desc": "Indoor fun with pool and table tennis for entertainment."
+    //     },
+    //     {
+    //         "title": "Live Music",
+    //         "desc": "Delight in live musical performances for a vibrant evening."
+    //     },
+    //     {
+    //         "title": "Exclusive Discotheque",
+    //         "desc": "Private discotheque access for our in-house guests."
+    //     },
+    //     {
+    //         "title": "Guest Services",
+    //         "desc": "Front desk, room service, laundry, doctor-on-call, and 24/7 hot water for a seamless stay."
+    //     },
+    //     {
+    //         "title": "24/7 Security Surveillance",
+    //         "desc": "CCTV coverage in main areas to ensure guest safety."
+    //     },
+    //     {
+    //         "title": "Elevator Access",
+    //         "desc": "Lift service available for added ease and comfort."
+    //     },
+    //     {
+    //         "title": "Scenic River View",
+    //         "desc": "Marvel at the breathtaking views of the River Beas."
+    //     },
+    //     {
+    //         "title": "Prime Location",
+    //         "desc": "Just 200 meters from the bustling Mall Road—easily walkable."
+    //     },
+    //     {
+    //         "title": "Power Backup",
+    //         "desc": "Generator backup ensures uninterrupted electricity supply."
+    //     }
+    // ]
 
 
     const stats = [

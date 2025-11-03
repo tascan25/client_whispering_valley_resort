@@ -273,12 +273,13 @@ function RoomsComp() {
                 </div>
 
                 <motion.button
-                  className="w-full py-3 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-xl text-white font-semibold hover:shadow-lg transition-all duration-300"
+                  className="w-full py-3 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-xl text-white font-semibold hover:shadow-lg transition-all duration-300 sm:text-sm
+                  cursor-pointer"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={()=>handleModal(room.image, room.features, room.name, room.price, room.description)}
                 >
-                  Book Now
+                  BOOK YOUR STAY
                 </motion.button>
               </div>
             </motion.div>

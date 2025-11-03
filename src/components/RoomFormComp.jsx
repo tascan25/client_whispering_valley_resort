@@ -6,8 +6,11 @@ function RoomFormComp() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     location: '',
     days: '',
+    checkin: '',
+    checkout: '',
     remarks: '',
     roomType: ''              // ← new field
   });
@@ -22,6 +25,18 @@ function RoomFormComp() {
     if (!formData.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
+    if (!formData.phone || !/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = 'Please enter a phone number with 10 digits';
+    }
+    
+    if (!formData.checkin || formData.checkin.length < 2) {
+      newErrors.checkin = 'Please enter a valid time for check-in';
+    }
+
+     if (!formData.checkout || formData.checkout.length < 2) {
+      newErrors.checkin = 'Please enter a valid time for check-out';
+    }
+
     if (!formData.location || formData.location.length < 2) {
       newErrors.location = 'Please enter your location';
     }
@@ -105,11 +120,11 @@ function RoomFormComp() {
   // Form (idle)
   return (
     <div className="w-full max-w-sm">
-      <div className="mb-4 md:mb-6 text-center">
-        <h3 className="text-2xl font-serif text-white md:mb-2 mt-20 md:mt-1">Book Your Stay</h3>
+      <div className="text-center">
+        <h3 className="text-2xl font-serif text-white">Book Your Stay</h3>
         <div className="w-16 h-0.5 bg-gradient-to-r from-amber-400 to-amber-600 mx-auto"></div>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6 mt-80 md:mt-60">
         {/* Name */}
         <div className="space-y-1">
           <label className="block text-sm font-medium text-amber-200">Full Name</label>
@@ -134,6 +149,19 @@ function RoomFormComp() {
             placeholder="you@example.com"
           />
           {errors.email && <p className="text-red-300 text-xs">{errors.email}</p>}
+        </div>
+
+        {/* phone number */}
+          <div className="space-y-1">
+          <label className="block text-sm font-medium text-amber-200">Phone Number</label>
+          <input
+            type="number"
+            value={formData.phone}
+            onChange={e => handleChange('phone', e.target.value)}
+            className="w-full px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all duration-200 text-base"
+            placeholder="you@example.com"
+          />
+          {errors.phone && <p className="text-red-300 text-xs">{errors.phone}</p>}
         </div>
 
         {/* Location */}
@@ -162,6 +190,33 @@ function RoomFormComp() {
             max="30"
           />
           {errors.days && <p className="text-red-300 text-xs">{errors.days}</p>}
+        </div>
+
+        {/* Check-in */}
+          <div className="space-y-1">
+          <label className="block text-sm font-medium text-amber-200">Check In</label>
+          <input
+            type="time"
+            value={formData.checkin}
+            onChange={e => handleChange('checkin', e.target.value)}
+            className="w-full px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all duration-200 text-base"
+            placeholder="you@example.com"
+          />
+          {errors.checkin && <p className="text-red-300 text-xs">{errors.checkin}</p>}
+        </div>
+
+
+           {/* Check-out */}
+          <div className="space-y-1">
+          <label className="block text-sm font-medium text-amber-200">Check Out</label>
+          <input
+            type="time"
+            value={formData.checkout}
+            onChange={e => handleChange('checkout', e.target.value)}
+            className="w-full px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-400 transition-all duration-200 text-base"
+            placeholder="you@example.com"
+          />
+          {errors.checkout && <p className="text-red-300 text-xs">{errors.checkout}</p>}
         </div>
 
         {/* Room Type (radio) */}

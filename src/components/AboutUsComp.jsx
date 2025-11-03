@@ -165,12 +165,12 @@ const AboutUsComp = () => {
                         Our Story
                     </motion.h1>
                     <motion.p
-                        className="text-lg md:text-2xl text-gray-300 leading-relaxed"
+                        className="text-lg md:text-2xl text-gray-300 leading-relaxed italic"
                         initial={{ opacity: 0, y: 60 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
                     >
-                        Creating unforgettable moments in valley for over 25 years
+                        Luxury that listens to the whispers of the valley
                     </motion.p>
                 </motion.div>
             </section>
@@ -229,7 +229,7 @@ const AboutUsComp = () => {
             </section>
 
             {/* facilities section */}
-            <section className="py-16 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-sm">
+            {/* <section className="py-16 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-sm">
                 <div className="max-w-6xl mx-auto px-6">
                        <motion.div
                         className="text-center mb-16"
@@ -260,7 +260,7 @@ const AboutUsComp = () => {
 
                     </motion.div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Stats Section */}
             <section className="py-16 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-sm">
@@ -338,7 +338,7 @@ const AboutUsComp = () => {
             </section>
 
             {/* Team Section */}
-            <section className="py-20 px-6 bg-gradient-to-r from-slate-800/50 to-slate-700/50">
+            {/* <section className="py-20 px-6 bg-gradient-to-r from-slate-800/50 to-slate-700/50">
                 <div className="max-w-6xl mx-auto">
                     <motion.div
                         className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
@@ -394,7 +394,7 @@ const AboutUsComp = () => {
                         </motion.div>
                     </motion.div>
                 </div>
-            </section>
+            </section> */}
 
             {/* CTA Section */}
             <section className="py-20 px-6">

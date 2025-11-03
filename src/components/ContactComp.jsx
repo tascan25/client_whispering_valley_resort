@@ -52,7 +52,7 @@ function ContactComp() {
                 <>
                   +91-9816017904<br />
                   +91-9816417904<br/>
-                  <span className='font-semibold text-sm'>Available 24/7</span>
+                  {/* <span className='font-semibold text-sm'>Available 24/7</span> */}
                 </>
               ),
               delay: 0.2

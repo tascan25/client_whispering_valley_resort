@@ -19,7 +19,7 @@ function Home() {
                     instagram="https://www.instagram.com/whisperingvalleyresort/"
                     youtube="https://www.youtube.com/watch?v=iSBXoPu9qD8"
                     whatsapp={{
-                        phone: "919876543210",
+                        phone: "919816017904",
                         message: "Hello from your website!"
                     }}
                     showLabels={true}
